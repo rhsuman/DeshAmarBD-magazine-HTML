@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import url(../plugins/fontawesome-free/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /*!
  * DeshAnarBD v1 (https://www.deshamarbd.com/)
  * Copyright 2021 RH Suman
  * Copyright 2021 DeshAmarBD.Com
  * Licensed under MIT ()
  */
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   --blue: #0d6efd;
@@ -3731,6 +3731,32 @@ fieldset:disabled .btn {
   left: auto /* rtl:ignore */;
 }
 
+.dropdown-menu-columns {
+  -moz-columns: 2;
+  columns: 2;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+.dropdown-menu-columns .dropdown-item {
+  display: inline-flex;
+  min-width: 10rem;
+}
+
+.dropdown-menu-columns-2 {
+  -moz-columns: 2;
+  columns: 2;
+}
+
+.dropdown-menu-columns-3 {
+  -moz-columns: 3;
+  columns: 3;
+}
+
+.dropdown-menu-columns-4 {
+  -moz-columns: 4;
+  columns: 4;
+}
+
 @media (min-width: 576px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
@@ -4243,6 +4269,25 @@ fieldset:disabled .btn {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    transition: 0.3s;
+  }
+  .navbar .nav-item:hover .nav-link {
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/* ============ desktop view .end// ============ */
+
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
@@ -11329,7 +11374,7 @@ button.nav-link.active {
 
 /**
 Hr text
- */
+*/
 .hr-text {
   display: flex;
   align-items: center;
@@ -11385,6 +11430,89 @@ Hr text
 
 .hr-text-spaceless {
   margin: -0.5rem 0;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(
+    left,
+    #c4e17f,
+    #c4e17f 12.5%,
+    #f7fdca 12.5%,
+    #f7fdca 25%,
+    #fecf71 25%,
+    #fecf71 37.5%,
+    #f0776c 37.5%,
+    #f0776c 50%,
+    #db9dbe 50%,
+    #db9dbe 62.5%,
+    #c49cde 62.5%,
+    #c49cde 75%,
+    #669ae1 75%,
+    #669ae1 87.5%,
+    #62c2e4 87.5%,
+    #62c2e4
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    #c4e17f,
+    #c4e17f 12.5%,
+    #f7fdca 12.5%,
+    #f7fdca 25%,
+    #fecf71 25%,
+    #fecf71 37.5%,
+    #f0776c 37.5%,
+    #f0776c 50%,
+    #db9dbe 50%,
+    #db9dbe 62.5%,
+    #c49cde 62.5%,
+    #c49cde 75%,
+    #669ae1 75%,
+    #669ae1 87.5%,
+    #62c2e4 87.5%,
+    #62c2e4
+  );
+  background-image: -o-linear-gradient(
+    left,
+    #c4e17f,
+    #c4e17f 12.5%,
+    #f7fdca 12.5%,
+    #f7fdca 25%,
+    #fecf71 25%,
+    #fecf71 37.5%,
+    #f0776c 37.5%,
+    #f0776c 50%,
+    #db9dbe 50%,
+    #db9dbe 62.5%,
+    #c49cde 62.5%,
+    #c49cde 75%,
+    #669ae1 75%,
+    #669ae1 87.5%,
+    #62c2e4 87.5%,
+    #62c2e4
+  );
+  background-image: linear-gradient(
+    to right,
+    #c4e17f,
+    #c4e17f 12.5%,
+    #f7fdca 12.5%,
+    #f7fdca 25%,
+    #fecf71 25%,
+    #fecf71 37.5%,
+    #f0776c 37.5%,
+    #f0776c 50%,
+    #db9dbe 50%,
+    #db9dbe 62.5%,
+    #c49cde 62.5%,
+    #c49cde 75%,
+    #669ae1 75%,
+    #669ae1 87.5%,
+    #62c2e4 87.5%,
+    #62c2e4
+  );
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,1058 +1,1114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="dist/css/style.css">
-    <link rel="stylesheet" href="dist/plugins/fontawesome-free/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/plugins/fontawesome-free/css/all.min.css">
 </head>
+
 <body>
 
-    <!--top navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black p-0">
-        <div class="container-fluid">
-            <div id="date" class="text-light"></div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-
-              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="img/background/bg-footer.jpg" alt="" width="24" height="24" class="d-inline-block align-text-top rounded-circle">
-                    Author
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><span class="dropdown-item-text text-center">
-                        <img src="img/background/bg-footer.jpg" alt="" class="rounded-circle" height="100px">
-                        Author
-                    </span></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Log Out</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-    </nav> 
-    <!--End Navbar-->
-
-    <!--header-->
-    <header class="header bg-white">
-        <div class="row">
-            <!--logo-->
-            <div class="col-4">
-                <h1>
-                    <img src="img/logo/default-logo.png" alt="" class="img-fluid">
-                </h1>
-            </div>
-            <!--end logo-->
-
-            <div class="col-8 d-none d-md-block p-3">
-                <img src="img/ads/728-demo.png" alt="" class="img-fluid float-end">
-            </div>
-        </div>
-    </header>
-    <!--End Header-->
-
-    <!--Main Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm border-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mainNavbar">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="category1.html">Category 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="category2.html">Category 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="category3.html">Category 3</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="post.html">Post</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+  <!--top navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black p-0">
+    <div class="container-xl">
+      <div id="date" class="text-light"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.deshamarbd.com">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
             </ul>
-            <form class="d-flex">
-                <div class="input-icon">
-                  <input type="text" class="form-control" placeholder="Search…">
-                  <span class="input-icon-addon">
-                      <i class="fas fa-search"></i>
-                  </span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="img/background/bg-footer.jpg" alt="" width="24" height="24"
+                class="d-inline-block align-text-top rounded-circle">
+              Author
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!--header-->
+  <header class="header bg-white">
+    <div class="container-xl">
+      <div class="row">
+        <!--logo-->
+        <div class="col-4 py-4">
+          <h1>
+            <a href="https://www.deshamarbd.com/">DeshAmaeBD</a>
+            <!-- <img src="img/logo/default-logo.png" alt="" class="img-fluid"> -->
+          </h1>
+        </div>
+        <!--end logo-->
+
+        <div class="col-8 d-none d-md-block p-3">
+          <img src="img/ads/728-demo.png" alt="" class="img-fluid float-end">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--End Header-->
+
+  <!--Main Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm border-top">
+    <div class="container-xl">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category1.html">Category 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category2.html">Category 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category3.html">Category 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">Post</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown 1
+            </a>
+            <ul class="dropdown-menu dropdown-menu-columns dropdown-menu-columns-4">
+              <li><a class="dropdown-item" href="#">Dropdown Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 4</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 5</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 6</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 7</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 8</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown 2
+            </a>
+            <ul class="dropdown-menu dropdown-menu-columns dropdown-menu-columns-2">
+              <li><a class="dropdown-item" href="#">Dropdown Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown 3
+            </a>
+            <ul class="dropdown-menu dropdown-menu-columns dropdown-menu-columns-3">
+              <li><a class="dropdown-item" href="#">Dropdown Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 4</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 5</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 6</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown 4
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown Menu 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Search…">
+            <span class="input-icon-addon">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--start ticker-->
+
+  <div class="container-xl mb-3">
+    <div class="news-ticker mt-3 bg-white shadow-sm">
+      <div class="row">
+        <div class="col-2 bg-primary ">
+          <div class="text-light text-center p-2">Latest News</div>
+        </div>
+
+        <div class="col-10">
+          <ul class="my-news-ticker p-2">
+            <li>
+              <a href="#">Breaking News 1</a>
+            </li>
+            <li>
+              <a href="#">Breaking News 2</a>
+            </li>
+            <li>
+              <a href="#">Breaking News 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--news ticker-->
+
+  <!--Feature Section-->
+  <section class="container-xl">
+    <div class="row g-1">
+      <!--Slider Area-->
+      <div class="col-md-6">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item img-16x9 active">
+              <img src="img/background/bg1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
               </div>
-              </form>
+            </div>
+            <div class="carousel-item img-16x9">
+              <img src="img/background/bg2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item img-16x9">
+              <img src="img/background/bg3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--Feature Srea-->
+      <div class="col-md-6">
+        <div class="row g-1">
+          <div class="col-6">
+            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
+              <div class="img-16x9">
+                <img src="img/background/bg-footer.jpg" class="card-img" alt="...">
+              </div>
+              <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
+                <a class="badge bg-primary text-wrap fw-light"> Category</a>
+                <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
+                <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
+              <div class="img-16x9">
+                <img src="img/background/bg1.jpg" class="card-img" alt="...">
+              </div>
+              <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
+                <a class="badge bg-danger text-wrap fw-light"> Category</a>
+                <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
+                <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
+              <div class="img-16x9">
+                <img src="img/background/bg2.jpg" class="card-img" alt="...">
+              </div>
+              <div class="card-img-overlay text-center position-absolute top-50 start-50 translate-middle">
+                <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
+                <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
+              <div class="img-16x9">
+                <img src="img/background/bg3.jpg" class="card-img" alt="...">
+              </div>
+              <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
+                <a class="badge bg-info text-wrap fw-light"> Category</a>
+                <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
+                <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <!--start ticker-->
-
-      <div class="container-fluid mb-3">
-        <div class="news-ticker mt-3 bg-white shadow-sm">
-            <div class="row">
-                <div class="col-2 bg-primary ">
-                    <div class="text-light text-center p-2">Latest News</div>
-                </div>
-
-                <div class="col-10">
-                    <ul class="my-news-ticker p-2">
-                      <li>
-                        <a href="#">Breaking News 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Breaking News 2</a>
-                      </li>
-                      <li>
-                        <a href="#">Breaking News 3</a>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-            <div class="clear"></div>
-          </div>
+      </div>
     </div>
-        <!--news ticker-->
+  </section>
+  <!--Feature Section-->
 
-        <!--Feature Section-->
-        <section class="container-fluid">
-            <div class="row g-1">
-                <!--Slider Area-->
-                <div class="col-md-6">
-                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item img-16x9 active">
-                        <img src="img/background/bg1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item img-16x9">
-                        <img src="img/background/bg2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item img-16x9">
-                        <img src="img/background/bg3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+  <!--Ads Section-->
+  <div class="container-xl my-3">
+    <img src="img/ads/728-demo.png" class="img-fluid mx-auto d-block" alt="">
+  </div>
+  <!--Ads Section-->
+
+  <div class="container-xl">
+    <div class="row">
+
+      <!--Main Area-->
+      <div class="col-md-8">
+        <!--Block 1-->
+        <section class="block bg-white shadow-sm mb-3">
+          <h5 class="block-title fw-normal">
+            <span>Category 1</span>
+            <a href="" class="float-end small py-1">View All</a>
+          </h5>
+          <div class="row g-2">
+            <!--Big-->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg1.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="flex-grow-1">
+                    <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                      Ago</small>
+                    <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
                   </div>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
                 </div>
-    
-                <!--Feature Srea-->
-                <div class="col-md-6">
-                    <div class="row g-1">
-                        <div class="col-6">
-                            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
-                                <div class="img-16x9">
-                                    <img src="img/background/bg-footer.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
-                                  <a class="badge bg-primary text-wrap fw-light"> Category</a>
-                                  <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
-                                  <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
-                                </div>
-                              </div>
-                        </div>
-    
-                        <div class="col-6">
-                            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
-                                <div class="img-16x9">
-                                    <img src="img/background/bg1.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
-                                    <a class="badge bg-danger text-wrap fw-light"> Category</a>
-                                    <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
-                                    <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
-                                  </div>
-                              </div>
-                        </div>
-    
-                        <div class="col-6">
-                            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
-                                <div class="img-16x9">
-                                    <img src="img/background/bg2.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="card-img-overlay text-center position-absolute top-50 start-50 translate-middle">
-                                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                                    <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
-                                    <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
-                                  </div>
-                              </div>
-                        </div>
-    
-                        <div class="col-6">
-                            <div class="card bg-dark text-white overflow-hidden rounded-0 position-relative">
-                                <div class="img-16x9">
-                                    <img src="img/background/bg3.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="card-img-overlay text-center position-absolate top-50 start-50 translate-middle">
-                                    <a class="badge bg-info text-wrap fw-light"> Category</a>
-                                    <h5 class="card-title fw-normal"><a class="text-light" href="">Card title</a></h5>
-                                    <p class="card-text"> <i class="far fa-clock"></i> 3 mins ago</p>
-                                  </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <!--Feature Section-->
-
-        <!--Ads Section-->
-        <section class="container-fluid my-3">
-          <img src="img/ads/728-demo.png" class="img-fluid mx-auto d-block" alt="">
-        </section>
-        <!--Ads Section-->
-
-        <section class="container-fluid">
-          <div class="row">
-            <!--Left Section-->
-            <div class="col-md-2 bg-white shadow-sm d-none d-md-block">
-              <section class="card">
-                <div class="card-header">Popular Post</div>
-                <div class="card mb-3">
-                  <div class="img-8x5 overflow-hidden">
-                    <img src="img/background/bg3.jpg" class="card-img-top img-fluid" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-normal"><a href="">Card Title</a></h5>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                  </div>
-                </div>
-
-                <div class="card mb-3">
-                  <div class="img-8x5 overflow-hidden">
-                    <img src="img/background/bg2.jpg" class="card-img-top img-fluid" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-normal"><a href="">Card Title</a></h5>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                  </div>
-                </div>
-
-                <div class="card mb-3">
-                  <div class="img-8x5 overflow-hidden">
-                    <img src="img/background/bg1.jpg" class="card-img-top" alt="">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title fw-normal"><a href="">Card Title</a></h5>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <!--End Left Section-->
-
-            <!--Main Area-->
-            <div class="col-md-7">
-              <!--Block 1-->
-              <section class="block bg-white shadow-sm mb-3">
-                <h5 class="block-title fw-normal">
-                  <span>Category 1</span>
-                  <a href="" class="float-end small py-1">View All</a>
-                </h5>
-                <div class="row g-2">
-                  <!--Big-->
-                  <div class="col-md-6">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg1.jpg" class="card-img-top" alt="">
-                      </div>
-                      <div class="card-body">
-                        <div class="flex-grow-1">
-                          <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                          <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                            <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                            <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
-                        </div>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!--End Big-->
-                  <!--Small-->
-                  <div class="col-md-6">
-                    <div class="list-group">
-                      <div class="d-flex list-group-item list-group-item-action pt-0">
-                        <div class="flex-shrink-0">
-                            <img src="img/background/bg2.jpg" alt="..." class="img-small">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                          <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                          <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                            <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                            <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                        </div>
-                    </div>
-
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg1.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                  </div>
-
-                  <div class="d-flex list-group-item list-group-item-action pt-0">
-                    <div class="flex-shrink-0">
-                        <img src="img/background/bg3.jpg" alt="..." class="img-small">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                      <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                        <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                        <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                    </div>
-                </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!--End Block 1-->
-
-              <!--Block 2-->
-              <section class="block bg-white shadow-sm mb-3">
-                <h5 class="block-title fw-normal">
-                  <span>Category 2</span>
-                  <a href="" class="float-end small py-1">View All</a>
-                </h5>
-                <div class="row g-2">
-                  <!--Big-->
-                  <div class="col-md-6">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg1.jpg" class="card-img-top" alt="">
-                      </div>
-                      <div class="card-body">
-                        <div class="flex-grow-1">
-                          <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                          <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                            <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                            <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
-                        </div>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                      </div>
-                    </div>
-                  <!--End Big-->
-                  <!--Small-->
-                    <div class="list-group">
-                      <div class="d-flex list-group-item list-group-item-action pt-0">
-                        <div class="flex-shrink-0">
-                            <img src="img/background/bg1.jpg" alt="..." class="img-small">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                          <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                          <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                            <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                            <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                        </div>
-                    </div>
-
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg2.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                  </div>
-
-                  <div class="d-flex list-group-item list-group-item-action pt-0">
-                    <div class="flex-shrink-0">
-                        <img src="img/background/bg3.jpg" alt="..." class="img-small">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                      <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                        <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                        <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                    </div>
-                    </div>
-                  </div>
-                  
-                </div>
-
-                <!--Big-->
-                <div class="col-md-6">
-                  <div class="card">
-                    <div class="img-16x9 overflow-hidden">
-                      <img src="img/background/bg1.jpg" class="card-img-top" alt="">
-                    </div>
-                    <div class="card-body">
-                      <div class="flex-grow-1">
-                        <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
-                    </div>
-                  </div>
-                <!--End Big-->
-                <!--Small-->
-                  <div class="list-group">
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg1.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                  </div>
-
-                  <div class="d-flex list-group-item list-group-item-action pt-0">
-                    <div class="flex-shrink-0">
-                        <img src="img/background/bg2.jpg" alt="..." class="img-small">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                      <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                        <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                        <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                    </div>
-                </div>
-
+            <!--End Big-->
+            <!--Small-->
+            <div class="col-md-6">
+              <div class="list-group">
                 <div class="d-flex list-group-item list-group-item-action pt-0">
                   <div class="flex-shrink-0">
-                      <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                    <img src="img/background/bg2.jpg" alt="..." class="img-small">
                   </div>
                   <div class="flex-grow-1 ms-3">
                     <a class="badge bg-warning text-wrap fw-light"> Category</a>
                     <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                      <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                      <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                  </div>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
                   </div>
                 </div>
-                
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg1.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
               </div>
-                </div>
-              </section>
-              <!--End Block 2-->
-
-              <!--Block 3-->
-              <section class="block bg-white shadow-sm mb-3">
-                <h5 class="block-title fw-normal">
-                  <span>Category 3</span>
-                  <a href="" class="float-end small py-1">View All</a>
-                </h5>
-
-                <div class="row g-1">
-                  <!--Top Big-->
-                  <div class="col-12">
-                    <div class="card mb-3">
-                      <div class="row g-0">
-                        <div class="col-md-4">
-                          <div class="img-8x5 overflow-hidden">
-                            <img src="img/background/bg-footer.jpg" class="img-fluid" alt="...">
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body py-0">
-                            <div class="flex-grow-1">
-                              <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                              <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                                <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                                <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
-                            </div>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--End Top Big-->
-                  <!--Small-->
-                  <div class="col-md-6">
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg3.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg2.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg1.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="d-flex list-group-item list-group-item-action pt-0">
-                      <div class="flex-shrink-0">
-                          <img src="img/background/bg3.jpg" alt="..." class="img-small">
-                      </div>
-                      <div class="flex-grow-1 ms-3">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
-                      </div>
-                    </div>
-                  </div>
-                  <!--End Small-->
-                </div>
-                </section>
-              <!--End Block 3-->
-
-              <!--Block 4-->
-              <section class="block bg-white shadow-sm mb-3">
-                <h5 class="block-title fw-normal">
-                  <span>Category 4</span>
-                  <a href="" class="float-end small py-1">View All</a>
-                </h5>
-
-                <div class="row row-cols-1 row-cols-md-2 g-2">
-                  <div class="col">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg1.jpg" class="card-img-top" alt="...">
-                      </div>
-                      <div class="flex-grow-1">
-                        <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                      </div>
-                      <div class="card-body">
-                        <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg2.jpg" class="card-img-top" alt="...">
-                      </div>
-                      <div class="flex-grow-1 ms-0">
-                        <a class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small> 
-                          
-                      </div>
-                      <div class="card-body">
-                        <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg3.jpg" class="card-img-top" alt="...">
-                      </div>
-                      <div class="flex-grow-1">
-                        <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                      </div>
-                      <div class="card-body">
-                        <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <div class="img-16x9 overflow-hidden">
-                        <img src="img/background/bg2.jpg" class="card-img-top" alt="...">
-                      </div>
-                      <div class="flex-grow-1">
-                        <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                          <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days Ago</small> 
-                      </div>
-                      <div class="card-body">
-                        <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </section>
-              <!--End Block 4-->
-
-              <!--Block 5-->
-              <section class="block bg-white shadow-sm mb-3">
-                <h5 class="block-title fw-normal">
-                  <span>Category 5</span>
-                  <a href="" class="float-end small py-1">View All</a>
-                </h5>
-
-                <div class="row row-cols-1 row-cols-md-2 g-2">
-                 
-                  <div class="col">
-                    <div class="card bg-dark text-white">
-                      <div class="img-16x9 overflow-hidden">
-                      <img src="img/background/bg1.jpg" class="card-img" alt="...">
-                      </div>
-                      <div class="card-img-overlay card-opacity">
-                        <div class="card-text">
-                          <a href="" class="px-1 bg-warning text-wrap fw-light"> Category</a>
-                        <a href="" class="px-1 bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
-                        </div>
-                        <h5 class="card-title"><a href="">Card title</a></h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-dark text-white">
-                      <div class="img-16x9 overflow-hidden">
-                      <img src="img/background/bg2.jpg" class="card-img" alt="...">
-                      </div>
-                      <div class="card-img-overlay card-opacity">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-dark text-white">
-                      <div class="img-16x9 overflow-hidden">
-                      <img src="img/background/bg3.jpg" class="card-img" alt="...">
-                    </div>
-                      <div class="card-img-overlay card-opacity">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-dark text-white">
-                      <div class="img-16x9 overflow-hidden">
-                      <img src="img/background/bg-footer.jpg" class="card-img" alt="...">
-                      </div>
-                      <div class="card-img-overlay card-opacity">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </section>
-              <!--End Block 5-->
             </div>
-            <!--End Main Area-->
-
-            <!--Right Sidenar-->
-            <div class="col-md-3 bg-white shadow-sm">
-              <!-- Sponser -->
-                <img src="img/ads/300-demo.png" class="img-fluid" alt="">
-              <!-- Social -->
-                <div class="card mb-3">
-                  <div class="card-header">
-                    Social
-                  </div>
-                  <div class="row g-0">
-                    <div class="col-4 text-center">
-                      <a class="text-white" href="https://www.facebook.com/toofunbd" target="_blank" title="facebook">
-                        <div class="card-body bg-facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-4 text-center">
-                      <a class="text-white" href="https://twitter.com/deshamarbd" target="_blank" title="twitter">
-                          <div class="card-body bg-twitter">
-                              <i class="fab fa-twitter"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-4 text-center">
-                      <a class="text-white" href="https://www.instagram.com/rhsuman" target="_blank" title="instagram">
-                          <div class="card-body bg-instagram">
-                              <i class="fab fa-instagram"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-4 text-center">
-                      <a class="text-white" href="https://www.youtube.com/mydeshamarbd" target="_blank" title="youtube">
-                          <div class="card-body bg-youtube">
-                              <i class="fab fa-youtube"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-4 text-center">
-                      <a class="text-white" href="https://www.pinterest.com/deshamarbd" target="_blank" title="pinterest">
-                          <div class="card-body bg-pinterest">
-                              <i class="fab fa-pinterest-p"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-4 text-center">
-                      <a class="text-white" href="https://web.telegram.org" target="_blank" title="telegram">
-                          <div class="card-body bg-telegram">
-                              <i class="fab fa-telegram-plane"></i>
-                          </div>
-                      </a>
-                  </div>
-                  </div>
-                </div>
-
-                <!-- Subscribe -->
-                <div class="card border mb-3">
-                    <h5 class="card-header">Newsletter</h5>
-                    <div class="card-body">
-                                <form action="https://www.deshamarbd.com/site/subscribe" method="post" accept-charset="utf-8">
-                        <div class="mb-3">
-                            <label class="form-label">Signup today for free and be the first to get notified on new updates. </label>
-                            <div class="input-icon">
-                                <span class="input-icon-addon">
-                                    <i class="fa fa-envelope"></i>
-                                </span>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                            </div>
-                                    </div>
-                        </form>    </div>
-                </div>
-                <!-- Recent/most viewd tab -->
-                <div class="card border">
-                  <ul class="nav nav-fill border-bottom" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active bg-white text-dark" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button" role="tab" aria-controls="latest" aria-selected="true">latest Post</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link bg-white text-dark" id="viewed-tab" data-bs-toggle="tab" data-bs-target="#viewed" type="button" role="tab" aria-controls="viewed" aria-selected="false">Most Viewed</button>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="latest" role="tabpanel" aria-labelledby="latest-tab">
-            <div class="list-group list-group-flush">
-                                
-                    <div class="d-flex list-group-item">
-                        <div class="flex-shrink-0">
-                            <div class="img-ratio-2">
-                                <img src="https://www.deshamarbd.com/images/thumblail/Asus-Zenfone-8.jpg" alt="Asus Zenfone 8 Flip" class="img-small">
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                                                            <small class="" style="background-color: #AA0DCE">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                                </small>
-                            
-                                                            <small class="" style="background-color: #00539B">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/asus-mobile">Asus Mobile</a>
-                                </small>
-                                                        <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                            <p class=""><a href="https://www.deshamarbd.com/view/asus_zenfone_8_flip">Asus Zenfone 8 Flip</a></p>
-                        </div>
-                    </div>
-                                                
-                    <div class="d-flex list-group-item">
-                        <div class="flex-shrink-0">
-                            <div class="img-ratio-2">
-                                <img src="https://www.deshamarbd.com/images/thumblail/These-are-the-prices-and-full-specifications-of-the-Oppo(1).jpg" alt="Oppo K9" class="img-small">
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                                                            <small class="" style="background-color: #AA0DCE">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                                </small>
-                            
-                                                            <small class="" style="background-color: #1EA366">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/oppo-mobile">Oppo Mobile</a>
-                                </small>
-                                                        <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                            <p class=""><a href="https://www.deshamarbd.com/view/oppo_k9">Oppo K9</a></p>
-                        </div>
-                    </div>
-                                                
-                    <div class="d-flex list-group-item">
-                        <div class="flex-shrink-0">
-                            <div class="img-ratio-2">
-                                <img src="https://www.deshamarbd.com/images/thumblail/R8_Gallery4(1).jpg" alt="Walton Primo R8" class="img-small">
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                                                            <small class="" style="background-color: #AA0DCE">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                                </small>
-                            
-                                                            <small class="" style="background-color: #0575C8">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/walton_mobile">Walton Mobile</a>
-                                </small>
-                                                        <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                            <p class=""><a href="https://www.deshamarbd.com/view/walton_primo_r8">Walton Primo R8</a></p>
-                        </div>
-                    </div>
-                                                
-                    <div class="d-flex list-group-item">
-                        <div class="flex-shrink-0">
-                            <div class="img-ratio-2">
-                                <img src="https://www.deshamarbd.com/images/thumblail/Redmi-K40-Game-Enhanced-Edition.jpg" alt="Xiaomi Redmi K40 Gaming Edition" class="img-small">
-                            </div>
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                                                            <small class="" style="background-color: #AA0DCE">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                                </small>
-                            
-                                                            <small class="" style="background-color: #FF6700">
-                                    <a class="p-1 text-light" href="https://www.deshamarbd.com/category/xiaomi-mobile">Xiaomi Mobile</a>
-                                </small>
-                                                        <small class="float-end"><i class="far fa-clock"></i> 11 days ago</small> 
-                            <p class=""><a href="https://www.deshamarbd.com/view/xiaomi_redmi_k40_gaming_edition">Xiaomi Redmi K40 Gaming Edition</a></p>
-                        </div>
-                    </div>
-                  </div>
-        </div>
-        <div class="tab-pane fade" id="viewed" role="tabpanel" aria-labelledby="viewed-tab">
-          <div class="list-group list-group-flush">
-                                
-            <div class="d-flex list-group-item">
-                <div class="flex-shrink-0">
-                    <div class="img-ratio-2">
-                        <img src="https://www.deshamarbd.com/images/thumblail/Asus-Zenfone-8.jpg" alt="Asus Zenfone 8 Flip" class="img-small">
-                    </div>
-                </div>
-                <div class="flex-grow-1 ms-3">
-                                                    <small class="" style="background-color: #AA0DCE">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                        </small>
-                    
-                                                    <small class="" style="background-color: #00539B">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/asus-mobile">Asus Mobile</a>
-                        </small>
-                                                <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                    <p class=""><a href="https://www.deshamarbd.com/view/asus_zenfone_8_flip">Asus Zenfone 8 Flip</a></p>
-                </div>
-            </div>
-                                        
-            <div class="d-flex list-group-item">
-                <div class="flex-shrink-0">
-                    <div class="img-ratio-2">
-                        <img src="https://www.deshamarbd.com/images/thumblail/These-are-the-prices-and-full-specifications-of-the-Oppo(1).jpg" alt="Oppo K9" class="img-small">
-                    </div>
-                </div>
-                <div class="flex-grow-1 ms-3">
-                                                    <small class="" style="background-color: #AA0DCE">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                        </small>
-                    
-                                                    <small class="" style="background-color: #1EA366">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/oppo-mobile">Oppo Mobile</a>
-                        </small>
-                                                <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                    <p class=""><a href="https://www.deshamarbd.com/view/oppo_k9">Oppo K9</a></p>
-                </div>
-            </div>
-                                        
-            <div class="d-flex list-group-item">
-                <div class="flex-shrink-0">
-                    <div class="img-ratio-2">
-                        <img src="https://www.deshamarbd.com/images/thumblail/R8_Gallery4(1).jpg" alt="Walton Primo R8" class="img-small">
-                    </div>
-                </div>
-                <div class="flex-grow-1 ms-3">
-                                                    <small class="" style="background-color: #AA0DCE">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                        </small>
-                    
-                                                    <small class="" style="background-color: #0575C8">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/walton_mobile">Walton Mobile</a>
-                        </small>
-                                                <small class="float-end"><i class="far fa-clock"></i> just_now</small> 
-                    <p class=""><a href="https://www.deshamarbd.com/view/walton_primo_r8">Walton Primo R8</a></p>
-                </div>
-            </div>
-                                        
-            <div class="d-flex list-group-item">
-                <div class="flex-shrink-0">
-                    <div class="img-ratio-2">
-                        <img src="https://www.deshamarbd.com/images/thumblail/Redmi-K40-Game-Enhanced-Edition.jpg" alt="Xiaomi Redmi K40 Gaming Edition" class="img-small">
-                    </div>
-                </div>
-                <div class="flex-grow-1 ms-3">
-                                                    <small class="" style="background-color: #AA0DCE">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
-                        </small>
-                    
-                                                    <small class="" style="background-color: #FF6700">
-                            <a class="p-1 text-light" href="https://www.deshamarbd.com/category/xiaomi-mobile">Xiaomi Mobile</a>
-                        </small>
-                                                <small class="float-end"><i class="far fa-clock"></i> 11 days ago</small> 
-                    <p class=""><a href="https://www.deshamarbd.com/view/xiaomi_redmi_k40_gaming_edition">Xiaomi Redmi K40 Gaming Edition</a></p>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-    </div>
-                </div>
-                
-                <!-- popular tab -->
-            </div>
-            <!--End Right Sidebar-->
           </div>
         </section>
+        <!--End Block 1-->
 
-        <footer class="footer bg-white p-2">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-6">
-                <p class="text-muted"> &copy 2021 DeshAmarBD.Com  All rights reserved </p>
+        <!--Block 2-->
+        <section class="block bg-white shadow-sm mb-3">
+          <h5 class="block-title fw-normal">
+            <span>Category 2</span>
+            <a href="" class="float-end small py-1">View All</a>
+          </h5>
+          <div class="row g-2">
+            <!--Big-->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg1.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="flex-grow-1">
+                    <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                      Ago</small>
+                    <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
+                </div>
+              </div>
+              <!--End Big-->
+              <!--Small-->
+              <div class="list-group">
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg1.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg2.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-md-6">
-                <ul class="nav justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-              
-              
-  
-          </div>
-          </div>
-        </footer>
-    
-    
+            </div>
 
-      <script src="dist/plugins/jquery/jquery-3.6.0.min.js"></script>
-    <script src="dist/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="dist/plugins/acme-ticker/js/acmeticker.min.js"></script>
-    <script src="dist/js/theme.js"></script>
+            <!--Big-->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg1.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="flex-grow-1">
+                    <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                      Ago</small>
+                    <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quo?</p>
+                </div>
+              </div>
+              <!--End Big-->
+              <!--Small-->
+              <div class="list-group">
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg1.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg2.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item list-group-item-action pt-0">
+                  <div class="flex-shrink-0">
+                    <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                    <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                    <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!--End Block 2-->
+
+        <!--Block 3-->
+        <section class="block bg-white shadow-sm mb-3">
+          <h5 class="block-title fw-normal">
+            <span>Category 3</span>
+            <a href="" class="float-end small py-1">View All</a>
+          </h5>
+
+          <div class="row g-1">
+            <!--Top Big-->
+            <div class="col-12">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="img-8x5 overflow-hidden">
+                      <img src="img/background/bg-footer.jpg" class="img-fluid" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body py-0">
+                      <div class="flex-grow-1">
+                        <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                        <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                        <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                          Ago</small>
+                        <h5 class="fw-normal card-title"><a href="">This is some content from a media component.</a>
+                        </h5>
+                      </div>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Top Big-->
+            <!--Small-->
+            <div class="col-md-6">
+              <div class="d-flex list-group-item list-group-item-action pt-0">
+                <div class="flex-shrink-0">
+                  <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                  <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex list-group-item list-group-item-action pt-0">
+                <div class="flex-shrink-0">
+                  <img src="img/background/bg2.jpg" alt="..." class="img-small">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                  <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex list-group-item list-group-item-action pt-0">
+                <div class="flex-shrink-0">
+                  <img src="img/background/bg1.jpg" alt="..." class="img-small">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                  <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex list-group-item list-group-item-action pt-0">
+                <div class="flex-shrink-0">
+                  <img src="img/background/bg3.jpg" alt="..." class="img-small">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+                  <h5 class="fw-normal"><a href="">This is some content from a media component.</a></h5>
+                </div>
+              </div>
+            </div>
+            <!--End Small-->
+          </div>
+        </section>
+        <!--End Block 3-->
+
+        <!--Block 4-->
+        <section class="block bg-white shadow-sm mb-3">
+          <h5 class="block-title fw-normal">
+            <span>Category 4</span>
+            <a href="" class="float-end small py-1">View All</a>
+          </h5>
+
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="col">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="flex-grow-1">
+                  <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                    Ago</small>
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a>
+                  </h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="flex-grow-1 ms-0">
+                  <a class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-clock"></i> 3 Days Ago</small>
+
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a>
+                  </h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg3.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="flex-grow-1">
+                  <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                    Ago</small>
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a>
+                  </h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="flex-grow-1">
+                  <a href="" class="badge bg-warning text-wrap fw-light"> Category</a>
+                  <a href="" class="badge bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  <small class="float-end"><i class="far fa-eye"></i> 5 / <i class="far fa-clock"></i> 3 Days
+                    Ago</small>
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-normal small card-title"><a href="">This is some content from a media component.</a>
+                  </h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!--End Block 4-->
+
+        <!--Block 5-->
+        <section class="block bg-white shadow-sm mb-3">
+          <h5 class="block-title fw-normal">
+            <span>Category 5</span>
+            <a href="" class="float-end small py-1">View All</a>
+          </h5>
+
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg1.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card-img-overlay card-opacity">
+                  <div class="card-text">
+                    <a href="" class="px-1 bg-warning text-wrap fw-light"> Category</a>
+                    <a href="" class="px-1 bg-primary text-wrap fw-light"><i class="far fa-user"></i> Author</a>
+                  </div>
+                  <h5 class="card-title"><a href="">Card title</a></h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg2.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card-img-overlay card-opacity">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg3.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card-img-overlay card-opacity">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card bg-dark text-white">
+                <div class="img-16x9 overflow-hidden">
+                  <img src="img/background/bg-footer.jpg" class="card-img" alt="...">
+                </div>
+                <div class="card-img-overlay card-opacity">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!--End Block 5-->
+      </div>
+      <!--End Main Area-->
+
+      <!--Right Sidenar-->
+      <div class="col-md-4 bg-white">
+        <!-- Sponser -->
+        <img src="img/ads/300-demo.png" class="img-fluid mb-3 w-100" alt="">
+        <!-- Social -->
+        <div class="card mb-3 border">
+          <div class="card-header">
+            Social
+          </div>
+          <div class="row g-0">
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://www.facebook.com/toofunbd" target="_blank" title="facebook">
+                <div class="card-body bg-facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://twitter.com/deshamarbd" target="_blank" title="twitter">
+                <div class="card-body bg-twitter">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://www.instagram.com/rhsuman" target="_blank" title="instagram">
+                <div class="card-body bg-instagram">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://www.youtube.com/mydeshamarbd" target="_blank" title="youtube">
+                <div class="card-body bg-youtube">
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://www.pinterest.com/deshamarbd" target="_blank" title="pinterest">
+                <div class="card-body bg-pinterest">
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="text-white" href="https://web.telegram.org" target="_blank" title="telegram">
+                <div class="card-body bg-telegram">
+                  <i class="fab fa-telegram-plane"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subscribe -->
+        <div class="card border mb-3">
+          <h5 class="card-header">Newsletter</h5>
+          <div class="card-body">
+            <form action="https://www.deshamarbd.com/site/subscribe" method="post" accept-charset="utf-8">
+              <div class="mb-3">
+                <label class="form-label">Signup today for free and be the first to get notified on new updates.
+                </label>
+                <div class="input-icon">
+                  <span class="input-icon-addon">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Recent/most viewd tab -->
+        <div class="card border">
+          <ul class="nav nav-fill border-bottom" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active bg-white text-dark" id="latest-tab" data-bs-toggle="tab"
+                data-bs-target="#latest" type="button" role="tab" aria-controls="latest" aria-selected="true">latest
+                Post</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link bg-white text-dark" id="viewed-tab" data-bs-toggle="tab" data-bs-target="#viewed"
+                type="button" role="tab" aria-controls="viewed" aria-selected="false">Most Viewed</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="latest" role="tabpanel" aria-labelledby="latest-tab">
+              <div class="list-group list-group-flush">
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/Asus-Zenfone-8.jpg"
+                        alt="Asus Zenfone 8 Flip" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #00539B">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/asus-mobile">Asus Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/asus_zenfone_8_flip">Asus Zenfone 8 Flip</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img
+                        src="https://www.deshamarbd.com/images/thumblail/These-are-the-prices-and-full-specifications-of-the-Oppo(1).jpg"
+                        alt="Oppo K9" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #1EA366">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/oppo-mobile">Oppo Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/oppo_k9">Oppo K9</a></p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/R8_Gallery4(1).jpg" alt="Walton Primo R8"
+                        class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #0575C8">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/walton_mobile">Walton
+                        Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/walton_primo_r8">Walton Primo R8</a></p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/Redmi-K40-Game-Enhanced-Edition.jpg"
+                        alt="Xiaomi Redmi K40 Gaming Edition" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #FF6700">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/xiaomi-mobile">Xiaomi
+                        Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> 11 days ago</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/xiaomi_redmi_k40_gaming_edition">Xiaomi Redmi
+                        K40 Gaming Edition</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="viewed" role="tabpanel" aria-labelledby="viewed-tab">
+              <div class="list-group list-group-flush">
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/Asus-Zenfone-8.jpg"
+                        alt="Asus Zenfone 8 Flip" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #00539B">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/asus-mobile">Asus Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/asus_zenfone_8_flip">Asus Zenfone 8 Flip</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img
+                        src="https://www.deshamarbd.com/images/thumblail/These-are-the-prices-and-full-specifications-of-the-Oppo(1).jpg"
+                        alt="Oppo K9" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #1EA366">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/oppo-mobile">Oppo Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/oppo_k9">Oppo K9</a></p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/R8_Gallery4(1).jpg" alt="Walton Primo R8"
+                        class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #0575C8">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/walton_mobile">Walton
+                        Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> just_now</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/walton_primo_r8">Walton Primo R8</a></p>
+                  </div>
+                </div>
+
+                <div class="d-flex list-group-item">
+                  <div class="flex-shrink-0">
+                    <div class="img-ratio-2">
+                      <img src="https://www.deshamarbd.com/images/thumblail/Redmi-K40-Game-Enhanced-Edition.jpg"
+                        alt="Xiaomi Redmi K40 Gaming Edition" class="img-small">
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <small class="" style="background-color: #AA0DCE">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/mobile">Mobile</a>
+                    </small>
+
+                    <small class="" style="background-color: #FF6700">
+                      <a class="p-1 text-light" href="https://www.deshamarbd.com/category/xiaomi-mobile">Xiaomi
+                        Mobile</a>
+                    </small>
+                    <small class="float-end"><i class="far fa-clock"></i> 11 days ago</small>
+                    <p class=""><a href="https://www.deshamarbd.com/view/xiaomi_redmi_k40_gaming_edition">Xiaomi Redmi
+                        K40 Gaming Edition</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- popular tab -->
+      </div>
+      <!--End Right Sidebar-->
+    </div>
+  </div>
+
+  <footer class="footer bg-white p-2">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted"> &copy 2021 DeshAmarBD.Com All rights reserved </p>
+        </div>
+
+        <div class="col-md-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="dist/plugins/jquery/jquery-3.6.0.min.js"></script>
+  <script src="dist/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="dist/plugins/acme-ticker/js/acmeticker.min.js"></script>
+  <script src="dist/js/theme.js"></script>
 </body>
+
 </html>
