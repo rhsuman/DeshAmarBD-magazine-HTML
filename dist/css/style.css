@@ -3699,7 +3699,7 @@ fieldset:disabled .btn {
   z-index: 1000;
   display: none;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0;
   margin: 0;
   font-size: 1rem;
   color: #212529;
@@ -3708,7 +3708,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+
 }
 .dropdown-menu[data-bs-popper] {
   left: 0;
@@ -4275,8 +4275,6 @@ fieldset:disabled .btn {
   .navbar .nav-item .dropdown-menu {
     display: none;
     transition: 0.3s;
-  }
-  .navbar .nav-item:hover .nav-link {
   }
   .navbar .nav-item:hover .dropdown-menu {
     display: block;
@@ -11275,7 +11273,7 @@ fieldset:disabled .btn {
   height: 40px;
 }
 .block-title {
-  padding: 0px 10px 5px 0px;
+  padding: 3px 10px 8px 0px;
   border-left: 10px solid var(--primary);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
